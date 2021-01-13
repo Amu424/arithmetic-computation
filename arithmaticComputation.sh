@@ -10,4 +10,8 @@ result3=$(( $c + $a / $b ))
 echo $result3
 result4=$(( $a % $b + $c ))
 echo $result4
-
+declare -A result
+result[1]="$result1"
+result[2]="$result2"
+result[3]="$result3"
+result[4]="$result4"
